@@ -1,11 +1,13 @@
-export default function info() {
+function info() {
     const m = new Map();
     m.set('name', 'ajs');
-    m.set('version', '1.0.2');
+    m.set('version', '1.0.3');
     m.set('description', 'Тестовый пакет JavaScript');
     return m;
 }
   
-// export default {
-//     info 
-// }
+// console.log(info());
+
+export default {
+    info
+};
